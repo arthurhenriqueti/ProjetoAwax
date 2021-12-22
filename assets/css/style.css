@@ -235,7 +235,7 @@ header {
 
 .section-aboutus--left {
     flex: 1;
-    border-right: 1px solid #333;
+    border-right: 1px solid #CCC;
     padding: 10px;
 }
 
@@ -541,8 +541,7 @@ header {
     max-width: 1140px;
     display: flex;
     margin: auto;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .section-logos .item {
@@ -694,4 +693,115 @@ header {
     width: 30px;
     height: 3px;
     background-color: #CCC;
+}
+
+.section-socials {
+    width: 100%;
+    height: 60px;
+    background-color: #CCC;
+}
+
+.section-socials-area {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+}
+
+.section-socials-info {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.section-socials-img {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.section-socials-img.share {
+    background-color: transparent;
+}
+
+.section-socials-img.twitter {
+    background-color: #00acee;
+}
+
+.section-socials-img.linkedin {
+    background-color: #0e76a8;
+}
+
+.section-socials-img.facebook {
+    background-color: #3b5998;
+}
+
+.section-socials-img.googleplus {
+    background-color: #db4a39;
+}
+
+.section-socials-img.pinterest {
+    background-color: #db4a39;
+}
+
+.section-socials-img.linkedin img,
+.section-socials-img.googleplus img,
+.section-socials-img.pinterest img {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.section-socials-img.twitter img {
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.section-socials-img.facebook img {
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.section-socials-txt {
+    margin-left: 5px;
+    color: #333;
+    margin-top: 5px;
+}
+
+.default.light.contactus .section-body {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactus-info input,
+.contactus-subject input {
+    padding: 10px;
+    border: 0px;
+    border-bottom: 1px solid black;
+    background-color: #F7F7F7;
+    width: 200px;
+}
+
+.contactus-info input[type="email"] {
+    margin-left: 50px;
+}
+
+.contactus-subject input {
+    margin-top: 20px;
+    width: 453.41px;
+}
+
+.contactus-subject.message {
+    margin-top: 50px;
+}
+
+.button.message {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 70px;
+    margin-left: 155px;
+    margin-bottom: 100px;
 }
