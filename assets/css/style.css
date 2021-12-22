@@ -703,7 +703,7 @@ header {
 
 .section-socials-area {
     display: flex;
-    max-width: 900px;
+    max-width: 500px;
     margin: auto;
 }
 
@@ -803,5 +803,58 @@ header {
     cursor: pointer;
     margin-top: 70px;
     margin-left: 155px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
+}
+
+footer {
+    width: 100%;
+    height: 230px;
+    background-color: black;
+}
+
+.footer {
+    display: flex;
+    max-width: 1140px;
+    justify-content: center;
+    margin: auto;
+}
+
+.footer .item {
+    flex: 1;
+    padding: 10px;
+    color: #CCC;
+}
+
+.footer .item.txt {
+    margin-top: 40px;
+}
+
+.footer .item.form {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #CCC;
+}
+
+.footer .item.form input {
+    padding: 10px;
+    border: 0px;
+    border-bottom: 1px solid black;
+    background-color: #CCC;
+}
+
+.button.form {
+    cursor: pointer;
+}
+
+.footer .item.socials {
+    margin-top: 40px;
+}
+
+.direitos {
+    margin-top: 50px;
+    width: 100%;
+    height: 30px;
+    background-color: #CCC;
+    text-align: center;
+    padding: 4px;
 }
