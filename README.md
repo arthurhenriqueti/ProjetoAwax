@@ -1,5 +1,5 @@
 # Projeto Awax
-Projeto proposto pelo Professor Bonieky Lacerda
+Projeto proposto pelo Professor Bonieky Lacerda, o layout do site não é de minha autoria.
 
 # Especificações
 - HTML5
