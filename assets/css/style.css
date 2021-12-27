@@ -392,7 +392,8 @@ header {
 }
 
 .section-team .sliders {
-    width: 1000vw;
+    /* 1000 vw */
+    width: 100vw;
     height: 100%;
 }
 
@@ -880,8 +881,12 @@ footer {
     }
 
     .section-aboutus--left a {
-        margin-left: 110px;
-        margin-bottom: 30px;
+        width: 175px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 20px;
     }
 
     .section-aboutus--right img {
@@ -904,10 +909,12 @@ footer {
     .default.dark.bg-team .sliders {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .default.dark.bg-team .slide {
-        margin-left: 50px;
+        margin-left: 10px;
         margin-bottom: 30px;
     }
 
@@ -927,15 +934,21 @@ footer {
 
     .default.light.priceCat .section-body {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .default.light.priceCat .section-body .prices {
-        margin-left: 80px;
-        margin-bottom: 30px;
+        width: 380px;
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-bottom: 20px;
     }
 
     .default.light.product .section-body {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .section-product {
@@ -952,8 +965,7 @@ footer {
     }
 
     .facts-area {
-        margin-left: 70px;
-        margin-bottom: 20px;
+        width: 100%;
     }
 
     .contactus-info {
