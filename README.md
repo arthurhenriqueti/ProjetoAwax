@@ -7,4 +7,4 @@ Projeto proposto pelo Professor Bonieky Lacerda, o layout do site não é de min
 - Visual Studio Code
 
 # Descrição do Projeto
-Criação de um site totalmente responsivo! [Visualizar Projeto](https://arthurhenriqueti.github.io/ProjetoAwax/)
+Criação de um site totalmente responsivo! [Visualizar Projeto](https://arthurhenriqueti.github.io/awax-landingPage/)
